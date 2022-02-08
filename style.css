@@ -1,0 +1,51 @@
+body{
+    background-color: #000;
+  }
+  
+  div{
+    backgroung-color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .container{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    margin: auto; 
+    padding: 20px;
+  }
+  
+  .eua{
+    background-color: red;
+    height: 15px;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .china{
+    background-color: red;
+    height: 15px;
+    width: 73%;
+    padding: 8px;
+  }
+  
+  .japao{
+    background-color: red;
+    height: 15px;
+    width: 22%;
+    padding: 8px;
+  }
+  
+  .alemanha{
+    background-color: red;
+    height: 15px;
+    width: 18%;
+    padding: 8px;
+  }
+  
+  .ru{
+    background-color: red;
+    height: 15px;
+    width: 13%;
+    padding: 8px;
+  }
