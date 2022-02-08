@@ -7,45 +7,15 @@ body{
     margin-bottom: 5px;
   }
   
-  .container{
-    background-color: #fff;
-    width: 600px;
-    height: 400px;
+  #container{
+    background-color: grey;
+    width: 800px;
+    height: 500px;
     margin: auto; 
     padding: 20px;
+    flex-direction: column-reverse;
   }
   
-  .eua{
-    background-color: lightcoral;
-    height: 15px;
-    width: 100%;
-    padding: 8px;
-  }
-  
-  .china{
-    background-color: lightcoral;
-    height: 15px;
-    width: 73%;
-    padding: 8px;
-  }
-  
-  .japao{
-    background-color: lightcoral;
-    height: 15px;
-    width: 22%;
-    padding: 8px;
-  }
-  
-  .alemanha{
-    background-color: lightcoral;
-    height: 15px;
-    width: 18%;
-    padding: 8px;
-  }
-  
-  .ru{
-    background-color: lightcoral;
-    height: 15px;
-    width: 13%;
-    padding: 8px;
+  .barras{
+    height: 25px;
   }
