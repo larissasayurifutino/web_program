@@ -9,35 +9,34 @@ div{
 
 #container{
   background-color: grey;
-  width: 800px;
+  width: 700px;
   height: 400px;
   margin: auto; 
   padding: 15px;
   display: flex;
-  flex-direction: column-reverse;
 }
 
 .barras{
   background-color: steelblue;
-  height: calc((100% - 60px)/5);
+  margin-right: 10px
 }
 
 .barras.eua{
-  width: 100%
+  height: 100%
 }
 
 .barras.china{
-  width: 73%
+  height: 73%
 }
 
 .barras.japao{
-  width: 22%
+  height: 22%
 }
 
 .barras.alem{
-  width: 18%
+  height: 18%
 }
 
 .barras.reino-unido{
-  width: 13%
+  height: 13%
 }
