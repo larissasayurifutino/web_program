@@ -1,21 +1,43 @@
 body{
-    background-color: #000;
-  }
-  
-  div{
-    backgroung-color: #555;
-    margin-bottom: 5px;
-  }
-  
-  #container{
-    background-color: grey;
-    width: 800px;
-    height: 500px;
-    margin: auto; 
-    padding: 20px;
-    flex-direction: column-reverse;
-  }
-  
-  .barras{
-    height: 25px;
-  }
+  background-color: #000;
+}
+
+div{
+  backgroung-color: #555;
+  margin-bottom: 5px;
+}
+
+#container{
+  background-color: grey;
+  width: 800px;
+  height: 400px;
+  margin: auto; 
+  padding: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.barras{
+  background-color: steelblue;
+  height: calc((100% - 60px)/5);
+}
+
+.barras.eua{
+  width: 100%
+}
+
+.barras.china{
+  width: 73%
+}
+
+.barras.japao{
+  width: 22%
+}
+
+.barras.alem{
+  width: 18%
+}
+
+.barras.reino-unido{
+  width: 13%
+}
