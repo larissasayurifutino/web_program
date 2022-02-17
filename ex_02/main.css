@@ -16,6 +16,7 @@ Será postado até sexta-feira um vídeo com a montagem do css dessa página a p
 ***********************/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+/*Definicao das variaveis que eu vou usar toda hora*/
 :root {
     --theme-color: #472479;
     --text-color: #000;
@@ -221,9 +222,11 @@ img.img-opening {
     padding: 0 6rem;
 }
 
+/*'p' com a classe 'lead' dentro de um elemento com a classe article-body*/
+/*A linha fina fica mais negrito corrigindo p o nome da variavel correta*/
 .article-body p.lead {
     font-size: 2.2rem;
-    font-weight: var(-font-weight-lead);
+    font-weight: var(--font-weight-lead);
     color: var(--font-color);
     background-color: #fff;
     padding: 6rem 6rem 1.6rem 6rem;
