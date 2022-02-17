@@ -85,7 +85,9 @@ a {
     padding: 2rem 3.2rem;
 }
 
-.top-brand :hover {
+/*Pseudo element hover dentro da classe top-brand*/
+/*Remover espaço*/
+.top-brand:hover {
     background-color: #5d3b8d;
 }
 
