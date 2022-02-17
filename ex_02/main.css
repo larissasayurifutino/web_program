@@ -114,6 +114,10 @@ a {
     margin: 12rem 0 10rem 0;
 }
 
+/*
+O mesmo estilo p 04 classes diferentes
+Estilo do container
+*/
 .article-label,
 .article-title,
 .article-author,
@@ -141,6 +145,8 @@ a {
     justify-content: center;
 }
 
+/* Itens 'a' dentro do elemento '.article-social-icons' */
+/* Propriedades de estilo como serão visualizados no estado natural */
 .article-social-icons a {
     font-size: 2rem;
     width: 5rem;
@@ -154,7 +160,9 @@ a {
     margin: 0.5rem;
 }
 
-.article-social-icons a.hover {
+/*'hover' não é uma classe. Eh um estado.*/
+/*Usamos ':'*/
+.article-social-icons a:hover {
     font-size: 2rem;
     text-decoration: none;
     color: rgba(150, 150, 150, 1);
