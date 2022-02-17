@@ -188,14 +188,16 @@ img.img-opening {
     padding: 0 6rem;
 }
 
-.img-block #small img {
+/*'small' não é 'id'.*/
+/*'small' é uma segunda classe*/
+.img-block.small img {
     display: block;
     width: 100%;
     height: auto;
     margin: 0;
 }
 
-.img-block #small .img-caption {
+.img-block.small .img-caption {
     display: block;
     width: 100%;
     height: auto;
@@ -240,6 +242,7 @@ img.img-opening {
 }
 
 /*Sendo mais específico*/
+/*p com classe subheading dentro de um elemento com a classe article-body*/
 .article-body p.subheading {
     font-weight: 500;
     font-size: 2rem;
