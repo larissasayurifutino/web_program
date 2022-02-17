@@ -239,7 +239,8 @@ img.img-opening {
     margin: 0 auto 3.2rem auto;
 }
 
-.subheading {
+/*Sendo mais específico*/
+.article-body p.subheading {
     font-weight: 500;
     font-size: 2rem;
 }
